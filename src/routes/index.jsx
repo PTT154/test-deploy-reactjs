@@ -50,7 +50,7 @@ const routes = [
         nested: [
             {
                 path: "dashboard",
-                element: lazy(() => import("../pages/AdminTemplate/DashBoard")),
+                element: lazy(() => import("../pages/AdminTemplate/Dashboard")),
             },
             {
                 path: "add-user",
